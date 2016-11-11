@@ -9,5 +9,5 @@ target_link_libraries(cppsci_unit_tests
 
 add_test(
   NAME cppsci_unit_tests
-  COMMAND cppsci_unit_tests
+  COMMAND $<TARGET_FILE:cppsci_unit_tests>
 )
